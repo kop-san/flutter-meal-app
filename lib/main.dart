@@ -15,10 +15,10 @@ final theme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
     brightness: Brightness.dark,
-    seedColor: const Color(0xFF4E342E), // Rich brown for warmth
-    primary: const Color(0xFFFF9800), // Orange for highlights
+    seedColor: const Color(0xFF4E342E),
+    primary: const Color(0xFFFF9800),
     onPrimary: Colors.black,
-    secondary: const Color(0xFF80CBC4), // Teal accent
+    secondary: const Color(0xFF80CBC4),
     onSecondary: Colors.black,
     surface: const Color(0xFF2C2F33),
     onSurface: Colors.white,
