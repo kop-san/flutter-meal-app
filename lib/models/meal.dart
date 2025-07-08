@@ -53,8 +53,8 @@ class Meal {
       steps: List<String>.from(map['steps'] ?? []),
       duration: map['duration'] as int? ?? 0,
       complexity: Complexity
-          .simple, // You may want to map this if your backend supports it
-      affordability: Affordability.affordable, // Same as above
+          .simple,
+      affordability: Affordability.affordable,
       isGlutenFree: map['isGlutenFree'] as bool? ?? false,
       isLactoseFree: map['isLactoseFree'] as bool? ?? false,
       isVegan: map['isVegan'] as bool? ?? false,
