@@ -59,7 +59,7 @@ class _MealDetialsScreenState extends State<MealDetialsScreen> {
             backgroundColor: Colors.green,
           ),
         );
-        Navigator.of(context).pop(true); // Return true to indicate deletion
+        Navigator.of(context).pop(true);
       }
     } catch (error) {
       if (mounted) {
